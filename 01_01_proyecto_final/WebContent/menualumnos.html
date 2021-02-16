@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>MENU ALUMNOS</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+#centrar{
+width: 400px;
+height: 330px;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+
+</head>
+<body>
+
+<br>
+<div style="width:60%;margin-left:auto;margin-right:auto;">
+
+<div id="centrar">
+<img src="img/alumnos.png" alt="cursos" width="450" height="300">
+</div>
+
+<div style="margin-left:auto;margin-right:auto;">
+
+<form action="SServletAlumnos?op=1" method="post">
+<input type="hidden" name="accion" value="L">
+<button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">LISTADO ALUMNOS</button>
+</form></div>
+
+<div style="margin-left:auto;margin-right:auto;">
+<form action="altaalumno.jsp" method="post">
+<input type="hidden" name="accion" value="L">
+<button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">INSERTAR NUEVO ALUMNO</button>
+</form></div>
+
+<center>
+<br>
+<a href="index.html" class="button">Volver a Inicio</a>
+</center>
+
+</div>
+<br/>
+<footer>
+  <p>Author: David Sanchez Benito<br>
+  <a href="mailto:thunderdome@gmail.com">thunderdome@gmail.com</a></p>
+</footer>
+
+
+
+</body>
+
+
+</html>
