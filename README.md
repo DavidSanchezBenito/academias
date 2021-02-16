@@ -5,7 +5,7 @@ En este link, hay un video del funcionamiento en menos de 7 min del programa des
 https://drive.google.com/file/d/1LoDly9L8aH_cmbv-bypuH_-rVaaiLxfd/view?usp=sharing
 
 Lo que contiene es:
--carpeta para utilizar en ECLIPSE, y dentro una carpeta DOCUMENTOS, que incluye:
+01_01_proyecto_final: carpeta para utilizar en ECLIPSE, y dentro una carpeta DOCUMENTOS, que incluye:
 
 1.Pdf redactado del proyecto con mis comentarios de la realización del mismo.
 2.zip con el programa JAVA desarrolado en Eclipse (es lo mismo que el fichero raiz)
